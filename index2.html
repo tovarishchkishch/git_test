@@ -1,0 +1,177 @@
+ <!DOCTYPE html>
+<html>
+
+    <style>
+
+        .flex-container-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .center {
+    
+      position: absolute;
+    
+      left: 57%;
+    
+      top: 25%;
+    
+      transform: translate(-50%, -50%);
+    
+      }
+      .container {
+        background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: normal;
+}
+button:hover {
+    border-color: #e6e6e6;
+  border-width: 1px;
+}
+
+.container-1 {
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: normal;
+}
+
+
+    a {
+      color: #8c8c8c;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    #russian {
+      color: blue;
+    }
+    
+    .leaf {
+      height: 14px;
+      width: auto;
+    }
+    
+    
+    #rcorners {
+      border-radius: 25px;
+    }
+     .topnav {
+    height: 50px;
+    size: 50px;
+     }
+    
+     footer {
+        background-color: #f2f2f2;
+        bottom: 0%;
+        position: absolute;
+        width: 100%;
+        height: 70px;
+    }
+    .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    
+    .flex-item {
+        padding: 15px;
+
+    }
+
+    .flex-item-1 {
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+      font-size: 15px;
+      justify-content: flex-start;
+    }
+    
+    .flex-item-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 15px;
+      padding: 15px;
+    }
+    
+    .flex-item-3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 15px;
+      font-size: 15px;
+    }
+    
+     </style>
+
+<body>
+<header>
+
+<div class="flex-container-center">
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" width="272dp" height="92dp"> 
+<div>
+
+<div class="topnav">
+<input type="text" id="rcorners">
+</div>
+
+<button class="container" type="submit">Google Search</button>
+<button class="container" type="submit">I'm feeling lucky</button>
+ 
+<h1 class="container-1">
+    Google offered in: <a id="russian" href="#">русский</a>
+</h1>
+</div>
+
+</header>
+
+<div>
+<footer>
+    <div class="flex-container">
+    <div class="flex-item-1">
+    <div class="flex-item"><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000078-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></div>
+    <div class="flex-item"><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></div>
+    <div class="flex-item"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></div>
+    </div>
+
+    <div class="flex-item-2">
+    <div class="flex-item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" alt="leaf" class="leaf"><a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a></div>
+    </div>
+
+    <div class="flex-item-3">
+    <div class="flex-item"><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></div>
+    <div class="flex-item"><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></div>
+    <div class="flex-item"><a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Settings</a></div>
+  </div>
+  
+</footer> 
+</div>
+</body>
+</html> 
